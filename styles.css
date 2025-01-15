@@ -54,7 +54,7 @@ body {
 
   /* Image Layout */
   .image-layout {
-    position: relative;
+    padding-left: 600px;
     height: 500px;
   }
   
@@ -62,18 +62,18 @@ body {
 
   /* Images Positioning */
   .image {
-    position: absolute;
+   margin: auto;
     width: 150px;
   }
   
   .image.first {
-    left: 0; /* First image on the right */
+    margin: right 0;; /* First image on the right */
     top: 0;
    
   }
   
   .image.second {
-    right: 0;
+    margin: left 0;;
     top: 150px; 
   }
   
